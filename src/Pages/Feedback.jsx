@@ -13,7 +13,7 @@ export const Feedback = () => {
 				<motion.div
 					variants={fadeIn("right", "tween", 0.2, 1)}
 					className="relative flex flex-[0.5] gradient-05 flex-col justify-end border border-[#6a6a6a] rounded-3xl p-4 sm:p-8 lg:max-w-[370px]">
-					<div className="feedback-gradient" />
+					<div className="feedback-gradient z-0" />
 					<div>
 						<h3 className="text-white text-[24px] leading-[32px] sm:text-[32px] sm:leading-[40px] font-bold">
 							Samantha

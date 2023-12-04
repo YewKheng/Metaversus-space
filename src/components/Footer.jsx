@@ -9,7 +9,7 @@ export const Footer = () => {
 			initial="hidden"
 			whileInView="show"
 			className="relative p-8 z-10 sm:p-16 md:px-6 md:py-12">
-			<div className="footer-gradient" />
+			<div className="footer-gradient z-0" />
 			<div className="flex flex-col w-full gap-8 mx-auto 2xl:max-w-[1280px]">
 				<div className="flex flex-wrap justify-between items-center gap-5">
 					<h2 className="text-white text-[44px] leading-[60px] font-bold md:text-[64px] md:leading-[80px]">
